@@ -1,0 +1,276 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: #e4e7ed;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+.navbar{
+    width:100%;
+    height:3.5rem;
+    position: fixed;
+    top:0px;
+    background-color: #2874f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 10;
+}
+.together{
+    display: flex;
+    align-items: center;
+}
+.upper-shop{
+    width:100%;
+    height: 7rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.5rem;
+    z-index: 5;
+}
+.banner{
+    margin:0.5rem;
+    width: 100%;
+    height: 18rem;
+    position: relative;
+}
+.banner-img{
+    width: 100%;
+    height: 100%;
+}
+.bank-offer{
+    background-color: white;
+    height: 6rem;
+    text-align: center;
+    margin: 0 0.5rem 0;
+}
+.bank-offer img{
+    width:80%;
+    height: 6rem;
+}
+.main{
+    width: 100%;
+    flex:1;
+    background-color: #e4e7ed;
+}
+.brand{
+    width:5rem;
+    height: 100%;
+    margin-left:10rem;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+}
+.flip-logo{
+    width: 5rem;
+    height: 1.25rem;
+}
+.plus-icon{
+    width:0.625rem;
+    height: 0.625rem;
+}
+.logo-anc{
+    text-decoration: none;
+    font-size: 0.625rem;
+    position: relative;
+    bottom: 10px;
+    color:#f0f0f0;
+}
+.search-bar input[type=text]{
+    width:24rem;
+    height:2.25rem;
+    padding: 0 1rem 0;
+}
+.search-bar i{      
+    position: relative;
+    right:2rem;
+    cursor:pointer;
+    color:#2874f0;
+}
+.btn{
+    background-color: white;
+    padding: 5px 40px 5px;
+    border-radius: 2px;
+    border: 1px solid #dbdbdb;
+}
+.btn a{
+    color: #2874f0;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    font-size: 1rem;
+}
+a{
+    text-decoration: none;
+}
+.anchors a{
+    color:white;
+    font-weight: 500;   
+}
+
+.mini-card{
+    width:7rem;
+    height: 5.5rem;
+    cursor: pointer;
+    text-align: center;
+    padding-left: 2rem;
+}
+.mini-card-img{
+    width: 4rem;
+    height: 4rem;
+}
+.mini-card-cont{
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: black;
+    text-align: center;
+}
+.banner-img{
+    cursor: pointer;
+}
+.chevron-left{
+    position: absolute;
+    left:0;
+    top:45%;
+    font-size: 3.5rem;
+}
+.chevron-right{
+    position: absolute;
+    right:0;
+    top:45%;
+    font-size: 3.5rem;
+}
+.line{
+    display: flex;
+    background-color: white;
+    margin: 0.5rem 0.5rem 0;
+}
+.main-card{
+    width:15rem;
+    height: 22.5rem;
+    text-align: center;
+}
+.main-card-cont{
+    padding: 1.75rem 0.675rem 7.75rem;
+    margin-top: 3.5rem;
+}
+.main-card h2{
+    font-weight: 400;
+    line-height: 1.38;
+    font-size: 2rem;
+}
+.btn-2{
+    background-color: #2874f0;
+    cursor: pointer;
+    color: white;
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 0.625rem  1.25rem 0.625rem;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
+
+.card{
+    width:12.625rem;
+    height: 18.625rem;
+    text-align: center;
+    cursor:pointer;
+    padding: 1.5rem 1rem 1.5rem;
+}
+.card-image{
+    width:8.75rem;
+    height: 12.5rem;
+}
+.name{
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-top: 0.9375rem;
+}
+.card-link{
+    font-size: 0.9375rem;
+    color: #388e3c;
+    padding-top: 0.5rem;
+}
+.det{
+    font-size: 0.875rem;
+    opacity: 0.6;
+    padding-top: 0.5rem;
+}
+.line2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    background-color: white;
+    margin: 0.5rem 0.5rem 0;
+}
+.line2 img{
+    width: 32%;
+    height: auto;
+}
+.rec-viewed{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    background-color: white;
+    margin: 0.5rem 0.5rem 0;
+}
+.rec-cards{
+    width:12.625rem;
+    height: 18.625rem;
+    text-align: start;
+    cursor:pointer;
+    padding: 1.5rem 1rem 1.5rem;
+    margin-left:1rem;
+}
+.rec-card-image{
+    width: 15rem; 
+    height: 15rem;
+}
+.rec-det{
+    font-weight: 500;
+    padding-bottom: 0.25rem;
+}
+.rec-card-link{
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding-bottom: 0.25rem;
+    color:#878787;
+}
+.rec-name{
+    font-size: 0.875rem;
+    padding-bottom: 0.25rem;
+}
+.rating{
+    font-size: 0.75rem;
+    background-color: #388e3c;
+    border-radius: 3px;
+    padding: 0.125rem 0.25rem 0.125rem 0.375rem;
+    color: white;
+}
+.rec-cards:hover .rec-name{
+    color: blue;
+}
+.cut{
+    color:#878787;
+    text-decoration: line-through;
+}
+.footer{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-line{
+    opacity: 0.7;
+    height:30%;
+    width: 90%;
+    border-top: 2px solid white;
+}
